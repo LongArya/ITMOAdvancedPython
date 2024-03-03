@@ -1,4 +1,3 @@
-import click
 import sys
 import os
 from pydantic import FilePath
