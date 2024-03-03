@@ -1,0 +1,119 @@
+# SINGLE FILE INPUT 
+
+# TAIL 
+
+tail test_files/tail_file1.txt 
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+
+# PYTHON
+
+python3.10 task2.py test_files/tail_file1.txt 
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+
+
+# MULTIPLE FILE INPUT 
+
+# TAIL 
+
+tail test_files/tail_file1.txt test_files/tail_file2.txt
+==> test_files/tail_file1.txt <==
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+
+==> test_files/tail_file2.txt <==
+A
+B
+C
+D
+E
+F
+
+# PYTHON
+
+python3.10 task2.py test_files/tail_file1.txt test_files/tail_file2.txt
+==> test_files/tail_file1.txt <==
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+
+==> test_files/tail_file2.txt <==
+A
+B
+C
+D
+E
+F
+
+
+# STDIN INPUT 
+
+# PYTHON
+
+python3.10 task2.py 
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+R
+
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+R

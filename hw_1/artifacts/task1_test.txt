@@ -1,0 +1,42 @@
+# FILE INPUT 
+
+# NL
+
+nl -b a test_files/nl_test.txt 
+     1  line1
+     2  line2
+     3  line3 
+
+
+# PYTHON 
+python3.10 task1.py test_files/nl_test.txt 
+        1 line1
+
+        2 line2
+
+        3 line3 
+
+
+# STDIN INPUT 
+
+# NL
+
+nl -b a
+df
+     1  df
+s
+     2  s
+a
+     3  a
+^C
+
+# PYTHON 
+
+python3.10 task1.py 
+df
+        1 df
+s
+        2 s
+a
+        3 a
+^C

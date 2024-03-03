@@ -1,0 +1,34 @@
+# FILE INPUT 
+
+# WC
+wc ./test_files/wc_file.txt ./test_files/tail_file1.txt 
+ 2  3 20 ./test_files/wc_file.txt
+12 12 24 ./test_files/tail_file1.txt
+14 15 44 total
+
+# Python 
+python3.10 task3.py ./test_files/wc_file.txt ./test_files/tail
+_file1.txt 
+ 2 3 20 ./test_files/wc_file.txt
+ 12 12 24 ./test_files/tail_file1.txt
+ 14 15 44 total
+
+
+# STDIN INPUT
+
+# WC
+wc
+asdf
+df
+a
+ctrl + D
+      3       3      10
+
+
+# PYTHON 
+python3.10 task3.py
+asdf
+df
+a
+ctrl + D 
+ 3 3 10
