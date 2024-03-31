@@ -1,0 +1,21 @@
+Print value:
+ASD
+Print value:
+ASWE
+Print value:
+SDFSDLG
+Print value:
+done
+stdin -> ASD AT 16:50:30
+A: ASD -> asd AT 16:50:30
+B: asd -> nfq AT 16:50:30
+
+stdin -> ASWE AT 16:50:32
+A: ASWE -> aswe AT 16:50:35
+B: aswe -> nfjr AT 16:50:35
+
+stdin -> SDFSDLG AT 16:50:34
+A: SDFSDLG -> sdfsdlg AT 16:50:40
+B: sdfsdlg -> fqsfqyt AT 16:50:40
+
+DONE

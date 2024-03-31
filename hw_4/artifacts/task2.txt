@@ -1,0 +1,20 @@
+CPU CORES NUM = 8
+RESULT TABLE:
+|                  |   Threads avg time (s) |   Processes avg time (s) |
+|:-----------------|-----------------------:|-------------------------:|
+| workers num = 01 |               0.818758 |                 0.814641 |
+| workers num = 02 |               0.779621 |                 0.421032 |
+| workers num = 03 |               1.18418  |                 0.328327 |
+| workers num = 04 |               0.970974 |                 0.256932 |
+| workers num = 05 |               0.899984 |                 0.328043 |
+| workers num = 06 |               0.989973 |                 0.336674 |
+| workers num = 07 |               0.987537 |                 0.337957 |
+| workers num = 08 |               0.971684 |                 0.32798  |
+| workers num = 09 |               1.00251  |                 0.345724 |
+| workers num = 10 |               0.999089 |                 0.330882 |
+| workers num = 11 |               0.93786  |                 0.364435 |
+| workers num = 12 |               1.0159   |                 0.324858 |
+| workers num = 13 |               0.963668 |                 0.354948 |
+| workers num = 14 |               0.951477 |                 0.350571 |
+| workers num = 15 |               0.978543 |                 0.346913 |
+| workers num = 16 |               0.956239 |                 0.356075 |

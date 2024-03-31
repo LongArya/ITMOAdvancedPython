@@ -1,0 +1,8 @@
+EXPERIMENTS NUM = 10
+FIBONACCI TARGET = 30
+TABLE:
+|            |   avg (s) |   min (s) |   max (s) |
+|:-----------|----------:|----------:|----------:|
+| sequential |   9.47764 |   9.29253 |   9.7404  |
+| threads    |  11.1798  |  10.5632  |  11.6475  |
+| processes  |   3.60439 |   3.56983 |   3.63824 |
