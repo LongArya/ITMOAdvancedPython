@@ -57,19 +57,8 @@ async def async_downloader(num_files: int, output_dir: DirectoryPath):
 @click.option("--files_num", type=int)
 @click.option("--output_dir", type=Path)
 def run(files_num: int, output_dir: DirectoryPath):
-    t1 = time.time()
     os.makedirs(output_dir, exist_ok=True)
     asyncio.run(async_downloader(files_num, output_dir))
-    t2 = time.time()
-    print(t2 - t1)
-
-
-def time_sequential():
-    t1 = time.time()
-    for _ in range(5):
-        download_waifu_image_without_async("download.png")
-    t2 = time.time()
-    print(t2 - t1)
 
 
 if __name__ == "__main__":
